@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
-//import PropTypes from 'prop-types'
-import AddCategory from './components/AddCategory'
-import GifGrid from './components/GifGrid'
+import {AddCategory} from './components/AddCategory'
+import {GifGrid} from './components/GifGrid'
 
-const GifExpertApp = props => {
+const GifExpertApp = () => {
 
     const [categories, setCategories] = useState(['Dragon ball'])
 
@@ -27,5 +26,3 @@ const GifExpertApp = props => {
         </>
     )
 }
-
-export default GifExpertApp
